@@ -1,0 +1,337 @@
+@import url(font.css);
+
+p{
+  font-family: LondrinaSolid-Regular;
+  font-size: 40px;
+}
+.testobasso1{
+  margin-top: -50px;
+  font-size: 30px;
+}
+.testobasso2{
+  font-size: 30px;
+  margin-top: 50px;
+}
+.header{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.header2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+.col-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.col-2-img{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-bottom: 30px;
+}
+.col-3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.international{
+  margin-top: -65px;
+}
+.titolologo{
+  display: inline;
+  float: left;
+
+}
+.barra{
+  position: absolute;
+  right: 20px;
+  top: 40px;
+}
+input{
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  color: black;
+  font-size: 25px;
+  font-family:Arial,FontAwesome;
+  font-weight: 100!important;
+}
+::placeholder{
+  color: black;
+}
+h1{
+  font-size: 50px;
+  font-family: Merienda-Regular;
+}
+.centro{
+  display: flex;
+  text-align: center;
+  justify-content: center ;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.testorettangolo{
+  font-family: ITCKabelStdBook;
+  font-size: 32px;
+
+}
+.frase1{
+  font-family: ITCKabelStdBold;
+  font-size: 36px;
+  float: right;
+}
+.centro img{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 45px;
+}
+.testorettangolo2{
+  font-family: ITCKabelStdBook;
+  font-size: 25px;
+  margin-top: -30px;
+  text-align: center;
+}
+.testoillustratori{
+  font-family: ITCKabelStdBook;
+  font-size: 25px;
+  text-align: center;
+}
+.titolofinale{
+  float: left;
+  display: inline;
+  margin-top: -30px;
+}
+.testorettangolo3{
+  font-family: ITCKabelStdBold;
+  font-size: 25px;
+  text-align: center;
+}
+.sfondobasso1{
+  background-color:#D9D9D9;
+  width:100%;
+  position: absolute;
+  left: 0;
+  margin-top: 30px;
+}
+.sfondobasso1 img{
+  margin-left: 10px;
+}
+.sfondobasso2{
+  background-color:#A1A1A1;
+  width:100%;
+}
+.testorettangolo4{
+  font-family: ITCKabelStdBook;
+  font-size: 22px;
+  margin-left: 10px;
+}
+.testorettangolo5{
+  font-family: ITCKabelStdBook;
+  font-size: 22px;
+  text-align: right;
+  margin-right: 20px;
+}
+.immaginefinale{
+  float: left;
+}
+.testofinale2{
+  float: none;
+  margin-top: -30px;
+}
+.immaginelogo{
+  float: left;
+}
+#tasto{
+  font-family: ITCKabelStdBook;
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+}
+button{
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 30px;
+  padding: 5px;
+  padding-bottom: 0;
+}
+.centro_button{
+  text-align: center;
+}
+#camilo{
+  max-width: 300px;
+  height: 300px;
+  border: none;
+  border-radius: 100%;
+  background-color: #DBDBDB;
+}
+#camilo img{
+  max-width: 70%;
+  border-radius: 100px;
+}
+.camilo{
+  max-width: 300px;
+  height: 300px;
+  border: none;
+  border-radius: 100%;
+  background-color: #DBDBDB;
+}
+#TimLahan{
+  max-width: 300px;
+  height: 300px;
+  border: none;
+  border-radius: 200%;
+}
+#TimLahan img{
+  max-width: 100%;
+  border-radius: 200px;
+}
+#KarlottaFreier {
+  max-width: 300px;
+  height: 300px;
+  border: none;
+  border-radius: 200%;
+}
+#KarlottaFreier img{
+  max-width: 100%;
+  border-radius: 200px;
+}
+#XoanaHerrera{
+  max-width: 300px;
+  height: 300px;
+  border: none;
+  border-radius: 100%;
+  background-color: #6FCDD5;
+}
+#XoanaHerrera img{
+  max-width: 100%;
+  border-radius: 100px;
+}
+#LaBoca{
+  max-width: 300px;
+  height: 300px;
+  border: none;
+  border-radius: 200%;
+}
+#LaBoca img{
+  max-width: 100%;
+  border-radius: 200px;
+}
+#Linn-Fritz{
+  max-width: 300px;
+  height: 300px;
+  border: none;
+  border-radius: 200%;
+}
+#Linn-Fritz img{
+  max-width: 100%;
+  border-radius: 200px;
+}
+#home{
+  max-width: 300px;
+  border: none;
+  border-radius: 100%;
+  float: left;
+  margin-top: 0;
+}
+#immagine_centro{
+  width: 300px;
+  border-radius: 50%;
+  height: 300px;
+}
+.testochisiamo1{
+  font-family: ITCKabelStdBook;
+  font-size: 22px;
+  text-align: left;
+  margin-right: 20px;
+}
+.centro2{
+  display: flex;
+  text-align: center;
+  justify-content: center ;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-right: 185px;
+  margin-bottom: 30px
+}
+.centro3{
+  display: flex;
+  text-align: center;
+  justify-content: center ;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-left: 185px;
+  margin-bottom: 30px
+}
+.immaginilahan{
+  width: 100%;
+  margin:0;
+}
+.immaginichisiamo{
+  margin-bottom: 30px
+}
+@media screen and (max-width:768px) {
+  .col-2, .col-3, .header, .header2, .col-2-img{
+    grid-template-columns: 1fr;
+  }
+  .col-2-img{
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+  button{
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+  #tasto{
+    font-size: 25px;
+  }
+  #rettangolo{
+    width: 100%;
+    justify-content: center ;
+  }
+  .immaginelogo{
+    max-width: 20% !important;
+    height:auto;
+    float: left;
+  }
+  .col-2 img{
+    max-width: 100%;
+    height:auto;
+  }
+  .testorettangolo{
+    font-size: 25px;
+    padding: 20px;
+  }
+  .centro2{
+    padding: 0;
+
+  }
+  .testorettangolo5, .testorettangolo4{
+    text-align: left;
+    padding-left: 10px;
+  }
+  .barra{
+    position:relative;
+    justify-self: center;
+    right: 0;
+    top: 0;
+  }
+  .titolofinale3{
+    font-size: 30px;
+  }
+  .international{
+    margin-top: -50px;
+  }
+  .testobasso2{
+    margin-top: 30px;
+  }
+  .immaginichisiamo{
+    width: 100%;
+    height: auto;
+  }
+
+}
